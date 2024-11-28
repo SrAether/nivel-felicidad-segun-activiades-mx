@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "hconcat": [{"mark": {"type": "bar"}, "encoding": {"tooltip": [{"field": "Categor\u00eda", "title": "Categor\u00eda", "type": "nominal"}, {"field": "Frecuencia", "title": "Frecuencia", "type": "quantitative"}], "x": {"field": "Categor\u00eda", "title": "Categor\u00eda", "type": "nominal"}, "y": {"field": "Frecuencia", "title": "Frecuencia", "type": "quantitative"}}, "title": "Estad\u00edsticas de la columna SentimientoSituaci\u00f3nEcon\u00f3mica", "width": 300}, {"mark": {"type": "text"}, "encoding": {"text": {"field": "Frecuencia", "type": "quantitative"}, "tooltip": [{"field": "Categor\u00eda", "title": "Categor\u00eda", "type": "nominal"}, {"field": "Frecuencia", "title": "Frecuencia", "type": "quantitative"}], "y": {"axis": {"labels": true}, "field": "Categor\u00eda", "title": null, "type": "nominal"}}, "title": "Tabla de Frecuencias", "width": 200}], "data": {"name": "data-3919843aae40c5f53a0c16997b5e13c6"}, "resolve": {"scale": {"y": "shared"}}, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-3919843aae40c5f53a0c16997b5e13c6": [{"Categor\u00eda": "Satisfecho(a)", "Frecuencia": 439}, {"Categor\u00eda": "Mas o menos satisfecho(a)", "Frecuencia": 313}, {"Categor\u00eda": "Poco satisfecho(a)", "Frecuencia": 128}, {"Categor\u00eda": "Muy satisfecho(a)", "Frecuencia": 74}, {"Categor\u00eda": "Nada satisfecho(a)", "Frecuencia": 46}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

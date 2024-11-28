@@ -1,0 +1,11 @@
+Los archivos principales del proyecto son los siguientes: Limpieza0.py : ejecutable que realiza la limpieza de los datos y genera un archivo csv con codificación latin-1. quita_acentos.py : ejecutable que quita acentos de las palabras y guardar el dataset con codificación utf-8. CLI_dividir_dataset.py : ejecutable que proporciona un cli para dividir el dataset de multiples maneras. ./generar_boxplots_barplots/generarGraficos.py : ejecutable que genera los boxplots y barplots de los datos. ./API-ST-naive-bayes/Estructura.txt : ejecutable de la API de naive bayes optimizada con ejecución multihilo.
+
+datasets: ./dataset_limpio.csv : dataset limpio con codificación latin-1. ./dataset_final.csv : dataset limpio con codificación utf-8. ./muestraFinal.csv : muestra del dataset final. ./conjunto_de_datos_enut_2019_csv : dataset original.
+
+archivo de entorno de conda con las librerías necesarias: ./entorno.yml : archivo de entorno de conda con las librerías necesarias.
+
+archivos relacionados con orange ./KMeansEstructure.ows : archivo con el esqueleto para aplicar k-means en orange
+
+Este documento contiene el proyecto de investigación de minería de datos que responde a la pregunta ¿Qué nivel de felicidad tiene la población mexicana según sus actividades?
+./PFE.pdf
+

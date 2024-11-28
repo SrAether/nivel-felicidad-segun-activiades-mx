@@ -1,0 +1,5 @@
+cve,descrip
+1,Localidades con 100 000 y más habitantes
+2,Localidades con una población entre 15 000 y 99 999 habitantes
+3,Localidades con una población entre 2 500 y 14 999 habitantes
+4,Localidades con menos de 2 500 habitantes

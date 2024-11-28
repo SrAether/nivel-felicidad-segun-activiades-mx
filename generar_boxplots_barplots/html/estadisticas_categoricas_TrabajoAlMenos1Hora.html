@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "hconcat": [{"mark": {"type": "bar"}, "encoding": {"tooltip": [{"field": "Categor\u00eda", "title": "Categor\u00eda", "type": "nominal"}, {"field": "Frecuencia", "title": "Frecuencia", "type": "quantitative"}], "x": {"field": "Categor\u00eda", "title": "Categor\u00eda", "type": "nominal"}, "y": {"field": "Frecuencia", "title": "Frecuencia", "type": "quantitative"}}, "title": "Estad\u00edsticas de la columna TrabajoAlMenos1Hora", "width": 300}, {"mark": {"type": "text"}, "encoding": {"text": {"field": "Frecuencia", "type": "quantitative"}, "tooltip": [{"field": "Categor\u00eda", "title": "Categor\u00eda", "type": "nominal"}, {"field": "Frecuencia", "title": "Frecuencia", "type": "quantitative"}], "y": {"axis": {"labels": true}, "field": "Categor\u00eda", "title": null, "type": "nominal"}}, "title": "Tabla de Frecuencias", "width": 200}], "data": {"name": "data-d47adb3b4ad2e4742e80b9b7288d61a1"}, "resolve": {"scale": {"y": "shared"}}, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-d47adb3b4ad2e4742e80b9b7288d61a1": [{"Categor\u00eda": "Si", "Frecuencia": 587}, {"Categor\u00eda": "No", "Frecuencia": 413}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

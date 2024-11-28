@@ -1,0 +1,29 @@
+﻿Identifier: MEX-INEGI.ESD3.04-ENUT-2019
+
+Title: Encuesta Nacional Sobre Uso del tiempo 2019. Datos oportunos
+
+Description: El Instituto Nacional de Estadística y Geografía (INEGI) levanta la Encuesta Nacional Encuesta Nacional sobre Uso del tiempo (ENUT) 2019, con el objetivo de generar información estadística sobre los patrones de uso del tiempo de la población mexicana, con el fin de ayudar a la generación y evaluación de políticas públicas. Estudiando a la población de 12 años o mas de edad que residen en viviendas particulares ubicadas dentro del territorio nacional, esto es probabilístico por lo cual los resultados obtenidos se generaliza a toda la población a su vez es bietápico, estratificado y por conglomerados. 
+
+NOTA: El 12 de octubre de 2020, se reemplazaron los archivos del Conjunto de datos, Diccionario de datos y Diagrama de entidad-relación, debido a que se incorporaron las variables Entidad federativa, Sexo y Edad, para permitir la generación de consultas a ese nivel geográfico.
+
+Modified: 2020-10-12
+
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+
+Mbox: atencion.usuarios@inegi.org.mx
+
+License: https://www.inegi.org.mx/inegi/terminos.html
+
+DataDictionary: 
+
+Keyword: "Contribución", "Cultura", "Demografía", "Economía", "Encuesta", "Género", "Hogar", "Percepción", "Población", "Producción", "Remuneración", "Sociológico", "Tiempo", "Trabajo"     
+
+ContactPoint: Lic. José de Jesús Esquivel de la Rosa, 800 111 4634
+
+Temporal: 2019-10-21-2019-12-01
+
+Spatial: Estados Unidos Mexicanos
+
+AccrualPeriodicity: Quinquenalmente
+
+Distribution: https://www.inegi.org.mx/programas/enut/2019/

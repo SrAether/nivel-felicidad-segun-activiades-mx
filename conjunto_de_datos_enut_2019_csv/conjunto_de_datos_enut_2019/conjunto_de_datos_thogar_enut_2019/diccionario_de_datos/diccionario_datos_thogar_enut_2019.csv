@@ -1,0 +1,53 @@
+nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves 
+Número de UPM,7,C,upm,,0100017-3260769
+Número de vivienda seleccionada,2,C,viv_sel,,[01 - 23]
+Número de Hogar,1,C,hogar,,[1 - 5]
+Número de renglón del informante,2,C,n_inf,,[01 - 18]
+"Pregunta 2.4.1 Durante el mes pasado, ¿las personas de este hogar recibieron dinero por jubilación o pensión?",1,C,p2_4_1,p2_4_1,"1,2,9"
+Pregunta 2.4A.1 ¿Cuánto recibieron en total?,6,C,p2_4a_1,p2_4a_1,"000001 - 450000, 999999"
+"Pregunta 2.4.2 Durante el mes pasado, ¿las personas de este hogar recibieron dinero de familiares o conocidos que viven en el país?",1,C,p2_4_2,p2_4_2,"1,2,9"
+Pregunta 2.4A.2 ¿Cuánto recibieron en total?,6,C,p2_4a_2,p2_4a_2,"000001 - 040000, 999999"
+"Pregunta 2.4.3 Durante el mes pasado, ¿las personas de este hogar recibieron dinero de familiares o conocidos que viven fuera del país?",1,C,p2_4_3,p2_4_3,"1,2,9"
+Pregunta 2.4A.3 ¿Cuánto recibieron en total?,6,C,p2_4a_3,p2_4a_3,"000001 - 160000, 999999"
+"Pregunta 2.4.4 Durante el mes pasado, ¿las personas de este hogar recibieron dinero por el alquiler de algún bien (placas para taxi, automóvil, etcétera)?",1,C,p2_4_4,p2_4_4,"1,2,9"
+Pregunta 2.4A.4 ¿Cuánto recibieron en total?,6,C,p2_4a_4,p2_4a_4,"000001 - 070000, 999999"
+"Pregunta 2.4.5 Durante el mes pasado, ¿las personas de este hogar recibieron dinero por la renta de alguna propiedad (casa, edificio, local, terreno, tierra, etcétera)?",1,C,p2_4_5,p2_4_5,"1,2,9"
+Pregunta 2.4A.5 ¿Cuánto recibieron en total?,6,C,p2_4a_5,p2_4a_5,"000001 - 200000, 999999"
+"Pregunta 2.4.6 Durante el mes pasado, ¿las personas de este hogar recibieron dinero por retiro de intereses bancarios?",1,C,p2_4_6,p2_4_6,"1,2,9"
+Pregunta 2.4A.6 ¿Cuánto recibieron en total?,6,C,p2_4a_6,p2_4a_6,"000001 - 150000, 999999"
+"Pregunta 2.4.7 Durante el mes pasado, ¿las personas de este hogar recibieron dinero por venta o empeño de algún bien (casa, joyas, vehículos, maquinaria, animales, electrodomésticos, etcétera)?",1,C,p2_4_7,p2_4_7,"1,2,9"
+Pregunta 2.4A.7 ¿Cuánto recibieron en total?,6,C,p2_4a_7,p2_4a_7,"000001 - 500000, 999999"
+"Pregunta 2.4.8 Durante el mes pasado, ¿las personas de este hogar recibieron dinero por programas de gobierno (Prospera, Bienestar, Adultos Mayores, PROCAMPO, PROAGRO, Jóvenes construyendo el futuro, entre otros)?",1,C,p2_4_8,p2_4_8,"1,2,9"
+Pregunta 2.4A.8 ¿Cuánto recibieron en total?,6,C,p2_4a_8,p2_4a_8,"000001 - 600000, 999999"
+"Pregunta 2.4.9 Durante el mes pasado, ¿las personas de este hogar recibieron dinero...  Por otras fuentes diferentes al trabajo",1,C,p2_4_9,p2_4_9,"1,2,9"
+Pregunta 2.4A.9 ¿Cuánto recibieron en total?,6,C,p2_4a_9,p2_4a_9,"000001 - 100000, 999999"
+Pregunta 2.5.01 ¿En este hogar tienen televisión?,1,C,p2_5_01,p2_5_01,"1,2"
+Pregunta 2.5.02 ¿En este hogar tienen plancha eléctrica?,1,C,p2_5_02,p2_5_02,"1,2"
+Pregunta 2.5.03 ¿En este hogar tienen licuadora?,1,C,p2_5_03,p2_5_03,"1,2"
+Pregunta 2.5.04 ¿En este hogar tienen estufa de gas o eléctrica?,1,C,p2_5_04,p2_5_04,"1,2"
+Pregunta 2.5.05 ¿En este hogar tienen refrigerador?,1,C,p2_5_05,p2_5_05,"1,2"
+"Pregunta 2.5.06 ¿En este hogar tienen radio, estéreo, modular o minicomponente?",1,C,p2_5_06,p2_5_06,"1,2"
+Pregunta 2.5.07 ¿En este hogar tienen lavadora?,1,C,p2_5_07,p2_5_07,"1,2"
+"Pregunta 2.5.07 ¿Es automática (se llena, lava, enjuaga y exprime sola)?",1,C,p2_5_07a,p2_5_07a,"1,2"
+Pregunta 2.5.08 ¿En este hogar tienen teléfono móvil o celular?,1,C,p2_5_08,p2_5_08,"1,2"
+Pregunta 2.5.09 ¿En este hogar tienen automóvil o camioneta propios?,1,C,p2_5_09,p2_5_09,"1,2,9"
+Pregunta 2.5.10 ¿En este hogar tienen horno de microondas?,1,C,p2_5_10,p2_5_10,"1,2"
+Pregunta 2.5.11 ¿En este hogar tienen línea telefónica fija?,1,C,p2_5_11,p2_5_11,"1,2"
+Pregunta 2.5.12 ¿En este hogar tienen computadora o laptop?,1,C,p2_5_12,p2_5_12,"1,2,9"
+"Pregunta 2.5.13 ¿En este hogar tienen televisión de paga (Sky, Dish, Megacable, Izzi, Cablevisión, etcétera)?",1,C,p2_5_13,p2_5_13,"1,2"
+Pregunta 2.5.14 ¿En este hogar tienen internet?,1,C,p2_5_14,p2_5_14,"1,2,9"
+Pregunta 2.6.1 ¿En este hogar contratan trabajadoras(es) domésticas(os) de entrada por salida (o de vez en cuando)?,1,C,p2_6_1,p2_6_1,"1,2"
+Pregunta 2.7.1 ¿Cuántas(os) son?,1,C,p2_7_1,,[1 - 6]
+Pregunta 2.8.1 En total ¿cuántas horas trabajó(aron) para este hogar la semana pasada?,2,C,p2_8_1,p2_8_1,"00,01-80,97,98,99"
+Pregunta 2.6.2 ¿En este hogar contratan trabajadoras(es) domésticas(os) que vivan aquí?,1,C,p2_6_2,p2_6_2,"1,2"
+Pregunta 2.7.2 ¿Cuántas(os) son?,1,C,p2_7_2,,[1 - 3]
+Pregunta 2.8.2 En total ¿cuántas horas trabajó(aron) para este hogar la semana pasada?,2,C,p2_8_2,p2_8_2,"00,01-80,97,98,99"
+"Pregunta 2.6.3 ¿En este hogar contratan enfermeras(os) o cuidadoras(es) de niñas, niños o de personas mayores o con alguna discapacidad o enfermedad?",1,C,p2_6_3,p2_6_3,"1,2"
+Pregunta 2.7.3 ¿Cuántas(os) son?,1,C,p2_7_3,,[1 - 6]
+Pregunta 2.8.3 En total ¿cuántas horas trabajó(aron) para este hogar la semana pasada?,2,C,p2_8_3,p2_8_3,"00,01-72,98,99"
+"Pregunta 3.11 La semana pasada, ¿una o más personas de este hogar necesitaron de los cuidados de otra persona por tener discapacidad, enfermedad crónica o temporal?",1,C,p3_11,p3_11,"1,2"
+Tamaño de localidad,1,C,tloc,tloc,[1 - 4]
+Total de personas en el hogar,2,C,num_per,,[01 - 20]
+ESTRATO DE DISEÑO MUESTRAL,3,C,est_dis,,001-448
+CLAVE DE LA UNIDAD PRIMARIA DE MUESTREO,4,C,upm_dis,,0001-4200
+FACTOR DE HOGAR,5,C,fac_hog,,164-19809

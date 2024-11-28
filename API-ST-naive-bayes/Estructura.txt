@@ -1,0 +1,8 @@
+.
+├── datos
+│   └── manejo.py
+├── main.py
+└── modelos
+    ├── naive_bayes.py
+    ├── oneR.py
+    └── zeroR.py

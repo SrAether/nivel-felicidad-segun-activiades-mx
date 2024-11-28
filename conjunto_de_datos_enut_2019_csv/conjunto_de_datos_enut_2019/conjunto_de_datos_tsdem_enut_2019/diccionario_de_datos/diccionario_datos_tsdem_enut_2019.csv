@@ -1,0 +1,19 @@
+nombre_campo,longitud,tipo,nemónico,catálogo,rango_claves
+Número de UPM,7,C,upm,,0100017 - 3260769
+Número de vivienda seleccionada,2,C,viv_sel,,[01 - 23]
+Número de Hogar,1,C,hogar,,[1 - 5]
+Número de renglón de la persona de la entrevista individual,2,C,n_ren,,[01 - 28]
+Pregunta PAREN 3.3 ¿Qué es (NOMBRE) del jefe(a) del hogar?,1,C,paren,paren,[1 - 8]
+Pregunta SEXO 3.4 (NOMBRE) es hombre (NOMBRE) es mujer,1,C,sexo,sexo,"1,2"
+Pregunta EDAD 3.5 ¿Cuántos años cumplidos tiene (NOMBRE)?,2,C,edad,edad,"00,01-96,97,98,99"
+Pregunta P3.6 ¿(NOMBRE) está afiliado(a) o tiene derecho a los servicios médicos en…,1,C,p3_6,p3_6,"1 - 7, 9"
+"Pregunta P3.7 ¿(NOMBRE) asiste actualmente a la guardería, estancia infantil, preescolar o kínder?",1,C,p3_7,p3_7,"1,2"
+"Pregunta P3.8 ¿Cuál es la razón principal por la que (NOMBRE) no asiste a la guardería, estancia infantil, preescolar o kínder?",1,C,p3_8,p3_8,"1 - 6,9"
+Pregunta P3.9 ¿(NOMBRE) asiste actualmente a la escuela?,1,C,p3_9,p3_9,"1,2"
+Pregunta P3.10 ¿Cuál es la razón principal por la que (NOMBRE) no asiste o dejó de asistir a la escuela?,2,C,p3_10,p3_10,"01 - 09,99"
+Pregunta P3.11B ¿(NOMBRE)...,1,C,p3_11b,p3_11b,[1 - 4]
+TAMAÑO DE LOCALIDAD,1,C,tloc,tloc,[1 - 4]
+ESTRATO DE DISEÑO MUESTRAL,3,C,est_dis,,001 - 448
+CLAVE DE LA UNIDAD PRIMARIA DE MUESTREO,4,C,upm_dis,,0001 - 4209
+FACTOR HOGAR,5,C,fac_hog,,164 - 19809
+FACTOR PERSONAS,10,C,fac_per,,0 - 25355
